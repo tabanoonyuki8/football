@@ -12,13 +12,15 @@ body{
     transition:transform 3s;
 
 }
-.container:hover .half-width img{
-    background-color: orangered;
+.container:hover{
+    background-color: rgb(238, 81, 107);
     transform: rotateY(360deg);
 }
-.half img{
-    width: 556px;
-    height: 438px;
+.main-text{
+    margin-left: 50px;
+}
+.off{
+    margin-left: 50px;
 }
 .half h1{
     
@@ -26,9 +28,9 @@ body{
     font-size: 64px;
 
 }
-.half img{
-    width: 556px;
-    height: 438px;
+.half{
+    width: 650px;
+    height: 600px;
 }
 a.button{
     text-decoration: none;
@@ -61,6 +63,7 @@ a.button span{
 .text{
     color: black;
 }
+
 .mid-bar{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -72,6 +75,7 @@ a.button span{
 .midtext{
     color:rgb(190, 63, 84);
 }
+
 footer{
     text-align: center;
 }
